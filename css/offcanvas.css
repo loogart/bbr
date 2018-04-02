@@ -208,7 +208,7 @@ p {
 .section-3 h2::after,
 .section-4 h2::after,
 .section-6 h2::after,
-.section-7 h2::after{
+.section-7 h2::after {
     content: "";
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -233,9 +233,9 @@ p {
     background-color: #1a1a1a;
     color: #fff;
     border-radius: 0;
-    background-image: url('../images/graph%20expo.svg');
+    background-image: url('../images/graph-expo.svg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     background-position: 50% 100%;
     padding: 6rem 0;
 }
@@ -327,6 +327,54 @@ p {
     padding: 6rem 0;
 }
 
+.section-footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    border-radius: 0;
+    background-repeat: no-repeat;
+    background-size: 240px;
+    background-position: 100%;
+    padding: 8rem 0;
+    -webkit-box-shadow: inset 0 8px 20px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 8px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.section-footer ul li {
+    margin-bottom: 0.7rem;
+}
+
+@media screen and (max-width:767px) {
+    .section-6 {
+        color: #fff;
+        border-radius: 0;
+        background: url('../images/world-map-dotted.svg') no-repeat right -50%, #1A1A1A;
+        margin-bottom: 0;
+        padding: 6rem 0;
+    }
+
+    .section-footer ul {
+        margin: 2rem auto;
+    }
+
+}
+
+
+.section-footer h5 {
+    color: #166BEE;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    padding-bottom: 0.7rem;
+}
+
+.section-footer a {
+    color: #fff;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
 
 
 .card {
@@ -334,6 +382,7 @@ p {
     box-shadow: 0 0 15px 3px rgba(69, 79, 91, 0.1);
     -webkit-transition: all 0.35s ease-in;
     transition: all 0.35s ease-in;
+    margin-bottom: 30px;
 }
 
 .card:hover,
@@ -382,10 +431,10 @@ h6.card-price {
     padding: 1.5rem 0rem;
 }
 
-.section-7 .card-body h4{
+.section-7 .card-body h4 {
     font-weight: 300;
-    color:#166BEE;
-    margin-bottom:20px;
+    color: #166BEE;
+    margin-bottom: 20px;
 }
 
 
@@ -439,4 +488,16 @@ h6.card-price {
 .show > .btn-primary.dropdown-toggle:focus {
     -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+
+.sub-footer {
+    color: #666;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.sub-footer hr {
+    border: 1px solid #666;
+    opacity: 0.3;
+
 }
