@@ -136,11 +136,11 @@ body {
     background-color: #1A1A1A;
     color: #fff;
     border-radius: 0;
-/*    background-image: url('../images/graphic_jumbotron.svg');*/
-        background-image: url('../images/animation-bbr.gif');
+    /*    background-image: url('../images/graphic_jumbotron.svg');*/
+    background-image: url('../images/animation-bbr.gif');
     background-repeat: no-repeat;
-    background-size: 35%;
-    background-position: 110%;
+    background-size: 41%;
+    background-position: 110% 0;
     margin-bottom: 0;
     padding: 6rem 0;
 }
@@ -352,19 +352,19 @@ p {
         padding: 6rem 0;
     }
     .section-footer {
-        padding:3rem 0;
+        padding: 3rem 0;
         text-align: center;
     }
     .section-footer ul {
         display: none;
     }
     .section-8 {
-    background-color: #1a1a1a;
-    color: #fff;
-    border-radius: 0;
-    background: url('../images/3_triblock_pre-footer.svg') no-repeat 105% center, #1a1a1a;
-    padding: 6rem 0;
-}
+        background-color: #1a1a1a;
+        color: #fff;
+        border-radius: 0;
+        background: url('../images/3_triblock_pre-footer.svg') no-repeat 105% center, #1a1a1a;
+        padding: 6rem 0;
+    }
 
 }
 
