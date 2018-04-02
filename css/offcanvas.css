@@ -138,8 +138,8 @@ body {
     border-radius: 0;
     background-image: url('../images/graphic_jumbotron.svg');
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 110%;
+    background-size: 30%;
+    background-position: 100%;
     margin-bottom: 0;
     padding: 6rem 0;
 }
@@ -150,11 +150,10 @@ body {
     .section-intro {
         background-size: 50%;
         background-position: 120%;
-    }
-    .jumbotron-graphic {
-        visibility: hidden;
+        padding: 2rem 0;
     }
 }
+
 
 p {
     line-height: 1.5rem;
@@ -439,7 +438,7 @@ h6.card-price {
 
 
 .btn {
-    padding: 15px 45px;
+    padding: 15px 35px;
     letter-spacing: 1px;
     text-transform: uppercase
 }

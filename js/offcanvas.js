@@ -27,5 +27,5 @@ $(document).ready(function () {
 function parallax() {
     var scrollPosition = $(window).scrollTop();
     $('.jumbotron-graphic').css('top', (0 + (scrollPosition * 0.5)) + 'px');
-    $('.what-we-graphic').css('top', (0 - (scrollPosition * 0.1)) + 'px');
+    $('#what-we-graphic').css('top', (0 - (scrollPosition * 0.1)) + 'px');
 }
