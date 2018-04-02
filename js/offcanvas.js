@@ -13,7 +13,7 @@ var $ = jQuery.noConflict()
 $(window).scroll(function () {
     var scroll = $(this).scrollTop()
     $(".section-intro").css({
-        "background-position": "right " + scroll / 3 + "px"
+        "background-position": "110%" + scroll / 3 + "px"
     })
 })
 

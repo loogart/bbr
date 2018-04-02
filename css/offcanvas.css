@@ -136,10 +136,11 @@ body {
     background-color: #1A1A1A;
     color: #fff;
     border-radius: 0;
-    background-image: url('../images/graphic_jumbotron.svg');
+/*    background-image: url('../images/graphic_jumbotron.svg');*/
+        background-image: url('../images/animation-bbr.gif');
     background-repeat: no-repeat;
-    background-size: 30%;
-    background-position: 100%;
+    background-size: 35%;
+    background-position: 110%;
     margin-bottom: 0;
     padding: 6rem 0;
 }
