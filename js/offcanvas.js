@@ -1,6 +1,5 @@
 $(function () {
     'use strict'
-
     $('[data-toggle="offcanvas"]').on('click', function () {
         $('.offcanvas-collapse').toggleClass('open')
     })
@@ -26,6 +25,6 @@ $(document).ready(function () {
 
 function parallax() {
     var scrollPosition = $(window).scrollTop();
-    $('.jumbotron-graphic').css('top', (0 + (scrollPosition * 0.5)) + 'px');
-    $('#what-we-graphic').css('top', (0 - (scrollPosition * 0.1)) + 'px');
+    $('.jumbotron-graphic').css('top', (0 + (scrollPosition * 0.36)) + 'px');
+    $('#what-we-graphic').css('bottom', (-100 + (scrollPosition * 0.1)) + 'px');
 }
